@@ -1,7 +1,6 @@
 <?php
 session_start();
 include 'JobsDB.php';
-
 ?>
 <!DOCTYPE html>
 <html>

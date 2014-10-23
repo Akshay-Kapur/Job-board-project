@@ -1,4 +1,5 @@
 <?php
+
 include 'JobsDB.php';	
 $title=$_GET['job_title'];
 $salary=$_GET['job_salary'];
@@ -9,6 +10,7 @@ $employer=$_GET['job_employer'];
 $website=$_GET['job_website'];
 
 addjob ($title , $salary , $jobdesc , $location , $qualification , $employer , $website);
+
 ?>
 
 
@@ -26,7 +28,8 @@ addjob ($title , $salary , $jobdesc , $location , $qualification , $employer , $
 <body>
 
 <!--Form Begins-->
-<form action='PostingBoard.php'>
+<form> 
+<!--  action='PostingBoard1.php'-->
 <!--Table Begins-->
 <table>
 	<tr>
